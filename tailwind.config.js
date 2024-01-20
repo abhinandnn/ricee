@@ -11,6 +11,9 @@ module.exports = {
         gd: ['Glida Display'],
         gsmt: ["Gill sans mt"]
       },
+      colors:{
+        'mar': '#762023'
+      }
     },
   },
   plugins: [],
