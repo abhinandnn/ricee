@@ -9,3 +9,12 @@
   font-style: normal;
   font-display: swap;
 }
+.new{
+  background-image: url("../../public/thisimg.svg");
+   position: absolute;
+   left: 0;
+   top: 0;
+   width:1060px;
+   height: 100%;
+   background-size: cover;
+}
