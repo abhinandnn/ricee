@@ -1,14 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap'); */
 @font-face {
   font-family: "Gill sans mt";
   src: url("/fonts/gill.ttf") format('truetype');
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
+
 .new{
   background-image: url("../../public/thisimg.svg");
    position: absolute;
@@ -18,3 +19,12 @@
    height: 100%;
    background-size: cover;
 }
+
+@font-face {
+  font-family: "Gilda Display";
+  src: url("/fonts/GildaDisplay-Regular.ttf") format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
