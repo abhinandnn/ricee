@@ -1,23 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap'); */
 @font-face {
   font-family: "Gill sans mt";
   src: url("/fonts/gill.ttf") format('truetype');
-  font-weight: 400;
+  font-weight:normal;
   font-style: normal;
   font-display: swap;
 }
 
-.new{
+.new {
   background-image: url("../../public/thisimg.svg");
-   position: absolute;
-   left: 0;
-   top: 0;
-   width:1060px;
-   height: 100%;
-   background-size: cover;
+
+}
+
+.bgHold {
+  width: 341px;
+  height: 304px;
+  position: absolute;
+  left: -3vw;
+  top: -5.4vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.crouselF,
+.crouselT {
+  background: linear-gradient(90deg, #FFF8F2 62.93%, #FFF8F2 62.93%, rgba(217, 217, 217, 0.00) 1100.97%);
+}
+
+.crouselF {
+  position: absolute;
+  left: -38.2vw;
+
+}
+
+.crouselS {
+  position: relative;
+
+}
+
+.crouselT {
+  position: absolute;
+  right: -38.2vw;
+
+}
+
+@media (max-width:639px) {
+  .crouselF {
+    position: absolute;
+    left: -20.33vw;
+
+  }
+
+  .crouselT {
+    position: absolute;
+    right: -20.33vw;
+
+  }
+}
+
+.btn {
+  cursor: pointer;
 }
 
 @font-face {
@@ -27,4 +75,3 @@
   font-style: italic;
   font-display: swap;
 }
-

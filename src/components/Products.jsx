@@ -19,7 +19,7 @@ function Products() {
 
 </div>
     </div>
-  )
+  );
 }
 
-export default Products
+export default Products;
