@@ -4,7 +4,7 @@ import TopBanner from "@/components/TopBanner"
 import Share from "@/components/share"
 import About from "@/components/about"
 import Footer from "@/components/footer"
-
+import Review from "@/components/review"
 import Products from "@/components/Products"
 
 export default function Home() {
@@ -12,13 +12,14 @@ export default function Home() {
     <div className="font-gd font-light relative">
     <Header/>
     <TopBanner/>
-
+ 
     <Share/>
     <About/>
+    <Review/>
     <Footer/>
 
 
-    <Products/>
+   
 
     </div>
   )

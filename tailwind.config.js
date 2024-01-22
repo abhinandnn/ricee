@@ -6,9 +6,32 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+      screens: {
+        '2xl': {'max': '1535px'},
+        // => @media (max-width: 1535px) { ... }
+  
+        'xl': {'max': '1279px'},
+        // => @media (max-width: 1279px) { ... }
+  
+        'lg': {'max': '1023px'},
+        'lg1':{'max': '1065px'},
+        // => @media (max-width: 1023px) { ... }
+  
+        'md1': {'max': '897px'},
+        'md': {'max': '767px'},
+        // => @media (max-width: 767px) { ... }
+  
+        'sm': {'max': '639px'},
+        // => @media (max-width: 639px) { ... }
+        'mob': {'max': '495px'},
+        'mob1': {'max': '585px'},
+
+        'mini':{'max': '340px'}
+      },
+  
     extend: {
       fontFamily: {
-        gd: ['Glida Display'],
+        gd: ["Glida Display"],
         gsmt: ["Gill sans mt"]
       },
       colors:{

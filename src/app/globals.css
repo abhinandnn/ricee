@@ -11,10 +11,52 @@
 }
 .new{
   background-image: url("../../public/thisimg.svg");
-   position: absolute;
-   left: 0;
-   top: 0;
-   width:1060px;
-   height: 100%;
-   background-size: cover;
+   
+}
+.bgHold{
+width: 341px;
+height: 304px;
+ position: absolute;
+ left:-3vw;
+ top:-5.4vh;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.par{
+   /* Existing styles here */
+  
+}
+.crouselF,.crouselT{
+  background: linear-gradient(90deg, #FFF8F2 62.93%, #FFF8F2 62.93%, rgba(217, 217, 217, 0.00) 1100.97%);
+}
+
+.crouselF{
+position: absolute;
+left: -38.2vw;
+
+}
+.crouselS{
+position: relative;
+
+}
+.crouselT{
+  position: absolute;
+  right: -38.2vw;
+ 
+}
+@media (max-width:639px){
+  .crouselF{
+    position: absolute;
+    left: -20.33vw;
+   
+  }
+  .crouselT{
+    position: absolute;
+    right: -20.33vw;
+   
+  }
+}
+.btn{
+cursor: pointer;
 }
