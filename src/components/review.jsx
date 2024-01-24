@@ -58,28 +58,22 @@ const Review = () => {
                 : crouselF == 2
                 ? "crouselT"
                 : "crouselS"
-            } w-[56.6vw] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[43.6vw] sm:flex sm:flex-col  sm:px-0 sm:py-[5px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center sm:justify-between `}
+            } w-[56.6vw] items-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[43.6vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
           >
             <img
               src="comma.svg"
-              className=" w-[63px] sm:self-start sm:h-[4.2vh] "
+              className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
-            <div className=" relative top-[-14vh] left-[7vw] w-[38vw] xl:left-[9vw] 2xl:hidden sm:block sm:static ">
+            <div className="  w-[38vw]  text-center self-center ">
               {" "}
-              Ricee has truly become a kitchen staple for me. The generous 5KG
-              pack not only lasted the entire month, but its exceptional quality
-              elevated every meal I prepared{" "}
+              Ricee has seamlessly woven itself into the fabric of my kitchen,
+              establishing its role as an indispensable culinary companion. I
+              prepared.. Its exceptional standard consistently{" "}
             </div>
             <img
               src="comma2.svg"
-              className=" relative left-[44vw] top-[10vh] lg1:left-[42vw] lg1:top-[12.5vh] md1:w-[70px] md1:top-[17vh] sm:static sm:self-end sm:h-[4.2vh]"
+              className=" w-[63px] h-[53px] self-end md1:w-[70px]  sm:h-[4.2vh]"
             />
-            <div className=" relative top-[-14vh] left-[7vw] w-[38vw] xl:left-[9vw] sm:hidden ">
-              {" "}
-              Ricee has truly become a kitchen staple for me. The generous 5KG
-              pack not only lasted the entire month, but its exceptional quality
-              elevated every meal I prepared{" "}
-            </div>
           </div>
 
           <div
@@ -89,13 +83,13 @@ const Review = () => {
                 : crouselF == 2
                 ? "crouselF"
                 : "crouselT"
-            } w-[56.6vw] h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0 sm:h-[32vh] sm:w-[43.6vw] sm:flex sm:flex-col sm:px-0 sm:py-[5px] sm:items-center sm:text-[12px] sm:rounded-[12px]  sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center sm:justify-between `}
+            } w-[56.6vw] items-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[43.6vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
           >
             <img
               src="comma.svg"
-              className=" w-[63px] sm:self-start sm:h-[4.2vh] "
+              className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
-            <div className=" relative top-[-14vh] left-[7vw] w-[38vw] xl:left-[9vw] 2xl:hidden sm:block sm:static">
+            <div className="  w-[38vw]  text-center self-center ">
               {" "}
               I can definitely say Ricee exceeded my expectations. The 5KG pack
               lasted me the entire month and the rice quality was exceptional. I
@@ -103,14 +97,8 @@ const Review = () => {
             </div>
             <img
               src="comma2.svg"
-              className=" relative left-[44vw] top-[10vh] lg1:left-[42vw] lg1:top-[12.5vh] md1:w-[70px] md1:top-[17vh] sm:static sm:self-end sm:h-[4.2vh]"
+              className=" w-[63px] h-[53px] self-end md1:w-[70px]  sm:h-[4.2vh]"
             />
-            <div className=" relative top-[-14vh] left-[7vw] w-[38vw] xl:left-[9vw] sm:hidden">
-              {" "}
-              I can definitely say Ricee exceeded my expectations. The 5KG pack
-              lasted me the entire month and the rice quality was exceptional. I
-              love to cook and it made my dishes taste even better!{" "}
-            </div>
           </div>
           <div
             className={`${
@@ -119,27 +107,22 @@ const Review = () => {
                 : crouselF == 2
                 ? "crouselS"
                 : "crouselF"
-            } w-[56.6vw] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[43.6vw] sm:flex sm:flex-col  sm:px-0 sm:py-[5px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center sm:justify-between `}
+            } w-[56.6vw] items-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[43.6vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
           >
             <img
               src="comma.svg"
-              className=" w-[63px] sm:self-start sm:h-[4.2vh] "
+              className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
-            <div className=" relative top-[-14vh] left-[7vw] w-[38vw] xl:left-[9vw] 2xl:hidden sm:block sm:static">
+            <div className="  w-[38vw]  text-center self-center ">
               {" "}
-              I can confidently say that Ricee has added a new dimension to the
-              flavors in my dishes, making them even more delicious. I love to
-              cook and it made my dishes taste even better!{" "}
+              Ricee has truly become a kitchen staple for me. The generous 5KG
+              pack not only lasted the entire month, but its exceptional quality
+              elevated every meal I prepared{" "}
             </div>
             <img
               src="comma2.svg"
-              className=" relative left-[44vw] top-[10vh] lg1:left-[42vw] lg1:top-[12.5vh] md1:w-[70px] md1:top-[17vh] sm:static sm:self-end sm:h-[4.2vh]"
+              className=" w-[63px] h-[53px] self-end md1:w-[70px]  sm:h-[4.2vh]"
             />
-            <div className=" relative top-[-14vh] left-[7vw] w-[38vw] xl:left-[9vw] sm:hidden">
-              {" "}
-              I can confidently say that Ricee has added a new dimension to the
-              flavors in my dishes, making them even more delicious.{" "}
-            </div>
           </div>
         </div>
         <div className=" flex gap-[8px]">
