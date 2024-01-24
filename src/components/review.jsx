@@ -6,17 +6,17 @@ const Review = () => {
   const [crouselS, setCrouselS] = useState(1);
   const [crouselT, setCrouselT] = useState(2);
 
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     setCrouselF((prev) => (prev + 1) % 3);
-  //     setCrouselS((prev) => (prev + 1) % 3);
-  //     setCrouselT((prev) => (prev + 1) % 3);
-  //   }, 2000);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCrouselF((prev) => (prev + 1) % 3);
+      setCrouselS((prev) => (prev + 1) % 3);
+      setCrouselT((prev) => (prev + 1) % 3);
+    }, 2000);
 
-  //   return () => {
-  //     clearInterval(intervalId);
-  //   };
-  // }, []);
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
 
   return (
     <div className=" w-[100vw] h-[62.89vh] flex flex-col gap-[6.9vh] mt-[13.15vh] sm:[48vh]">
@@ -92,8 +92,7 @@ const Review = () => {
             <div className="  w-[38vw]  text-center self-center ">
               {" "}
               I can definitely say Ricee exceeded my expectations. The 5KG pack
-              lasted me the entire month and the rice quality was exceptional. I
-              love to cook and it made my dishes taste even better!{" "}
+              lasted me the entire month and the rice quality was exceptional. {" "}
             </div>
             <img
               src="comma2.svg"

@@ -9,7 +9,7 @@ const Share = () => {
         <div className=" font-gd text-[3rem] not-italic font-[400] leading-[61.44px] text-[#0F0D0A] mob1:text-[2rem] mob1:leading-[40.96px] ">Connect now with our experts for business enquiries</div>
         <div className="btn w-[205px] h-[64px] mob1:w-[165px] mob1:h-[56px] rounded-[12px] bg-[#762023] flex justify-center items-center gap-[12px]">
             <img src="logo.svg"></img>
-            <div className=" text-[#FFF] font-[400] font-gd leading-[19.2px] tracking-[0.48px] not-italic text-[1rem]">Whatsapp Now</div>
+            <div className="btn text-[#FFF] font-[400] font-gd leading-[19.2px] tracking-[0.48px] not-italic text-[1rem]">Whatsapp Now</div>
         </div>
       </div>
     </div>
