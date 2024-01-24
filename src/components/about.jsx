@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" mt-[18.9vh]  mx-[7.4vw] flex gap-[24px] w-[85.3vw] h-[74.4vh] lg1:h-[87vh] md1:h-[100%] md1:flex-col-reverse md1:items-center mob1:justify-center">
+    <div className=" mt-[18.9vh]  mx-[7.4vw] flex gap-[24px] w-[85.3vw]   items-center md1:flex-col-reverse md1:items-center mob1:justify-center">
       <div className=" flex flex-col gap-[2.6vh] w-[100%]  text-[1.25rem] text-[#000] font-gd font-[400]  leading-[30px] tracking-[0.3px] not-italic ">
         <div>
           {" "}
@@ -34,7 +34,7 @@ const About = () => {
         <div className=" text-[1.25rem] leading-[24px] tracking-[0.6px] mob:text-center">Check Ricee’s Locations <img src="arrow.svg" className=" inline"></img></div>
       </div>
       <div className=" flex justify-center items-center">
-        <img src="Group 16.svg" className=" lg1:w-[350px] h-[350px]"/>
+        <img src="Group 16.svg" className=" "/>
       </div>
     </div>
   );
