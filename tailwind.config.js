@@ -26,7 +26,7 @@ module.exports = {
         // => @media (max-width: 639px) { ... }
         'mob': {'max': '495px'},
         'mob1': {'max': '585px'},
-
+        'mini1': {'max': '410px'},
         'mini':{'max': '340px'}
       },
   
