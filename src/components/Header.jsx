@@ -8,7 +8,9 @@ function Header() {
   return (
     <div className='w-screen fixed z-10 '>
     <div className='bg-black backdrop-blur-[10px] bg-opacity-20 text-[1.25rem] text-white px-4 h-[4.5rem] flex items-center sm:justify-end justify-center relative'>
-    <div className=' fixed left-[6.5rem] lg:left-[5rem] sm:text-[1.75rem] mob:left-[1rem] md:left-[2rem]'>Ricee</div>
+    <div className=' fixed left-[6.5rem] lg:left-[5rem] sm:text-[1.75rem] mob:left-[1rem] md:left-[2rem]'>       <Link href="#hero" >
+Ricee
+</Link></div>
     <div className='flex font-gsmt text-[1.0625rem] sm:hidden gap-[3rem]'>
         <Link href="#about" >
 About

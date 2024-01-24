@@ -13,7 +13,7 @@ function Product({background,weight,text1,text2}) {
 </div>
     </div>
     </div>
-    <button className={`w-[10.75rem] h-[3.6875rem] mob:w-[7rem] mob:h-[2.8rem] mob:text-[0.8rem] bg-mar rounded-[0.75rem] text-[1rem] text-white`}>Buy now</button>
+    <button className={`active:bg-white active:text-mar border border-mar w-[10.75rem] h-[3.6875rem] mob:w-[7rem] mob:h-[2.8rem] mob:text-[0.8rem] bg-mar rounded-[0.75rem] text-[1rem] text-white`}>Buy now</button>
 
     </div>
   )

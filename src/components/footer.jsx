@@ -44,8 +44,8 @@ const Footer = () => {
           <img src="Facebook.svg" />
         </div>
       </div>
-      <div className="bgHold">
-        <img src="rangoli.png" />
+      <div className="bgHold relative">
+        <img className="absolute mini:left-[-7rem] mob:left-[-5.5rem] sm:left-[-20%] md:left-[-14%] xl:left-[-6%]" src="rangoli.png" />
       </div>
     </div>
   );
