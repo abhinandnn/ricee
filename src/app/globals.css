@@ -14,10 +14,10 @@ body{
   scroll-behavior: smooth;
 }
 
-.new {
+/* .new {
   background-image: url("../../public/thisimg.svg");
 
-}
+} */
 
 .bgHold {
   width: 341px;
@@ -56,13 +56,13 @@ body{
 @media (max-width:639px) {
   .crouselF {
     position: absolute;
-    left: -20.33vw;
+    left: -24.33vw;
 
   }
 
   .crouselT {
     position: absolute;
-    right: -20.33vw;
+    right: -24.33vw;
 
   }
 }

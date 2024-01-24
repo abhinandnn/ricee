@@ -58,7 +58,7 @@ const Review = () => {
                 : crouselF == 2
                 ? "crouselT"
                 : "crouselS"
-            } w-[56.6vw] items-center justify-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[43.6vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
+            } w-[56.6vw] items-center justify-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[47vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
           >
             <img
               src="comma.svg"
@@ -83,7 +83,7 @@ const Review = () => {
                 : crouselF == 2
                 ? "crouselF"
                 : "crouselT"
-            } w-[56.6vw] items-center justify-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[43.6vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
+            } w-[56.6vw] items-center justify-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[47vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
           >
             <img
               src="comma.svg"
@@ -106,7 +106,7 @@ const Review = () => {
                 : crouselF == 2
                 ? "crouselS"
                 : "crouselF"
-            } w-[56.6vw] items-center justify-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[43.6vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
+            } w-[56.6vw] items-center justify-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[47vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
           >
             <img
               src="comma.svg"

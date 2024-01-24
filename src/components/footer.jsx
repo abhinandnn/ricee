@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" relative flex justify-between mt-[24.3vh] mob1:mt-[17.9vh] w-[100vw] h-[46.18vh] bg-[#060606] text-[#FFF] pt-[6.3vh] pr-[9.09vw] pl-[7.22VW] text-[1.25rem] font-gd font-[400] leading-[30px] tracking-[0.6px] not-italic overflow-hidden  whitespace-nowrap md:min-h-[661px] md:h-[86.5vh] md:flex-col pb-[7.3vh] mob1:gap-[10.47vh] mob1:text-[16px]">
+    <div className=" relative flex justify-between mt-[24.3vh] mob1:mt-[17.9vh] w-[100vw]  bg-[#060606] text-[#FFF] pt-[6.3vh] pr-[9.09vw] pl-[7.22VW] text-[1.25rem] font-gd font-[400] leading-[30px] tracking-[0.6px] not-italic overflow-hidden  whitespace-nowrap  md:flex-col pb-[7.3vh] mob1:gap-[10.47vh] mob1:text-[16px]">
       <div className=" flex flex-col gap-[10.5vh] mob1:gap-[5.1vh]">
         <div className=" flex flex-col gap-[2.8vh]">
           <div className=" text-[2rem] leading-[48px] tracking-[0.96px] mob1:text-[28px]">
@@ -37,7 +37,7 @@ const Footer = () => {
             <div>contact@ricee.com</div>
           </div>
         </div>
-        <div className="btn flex gap-[2.1vw] mob1:gap-[29px]">
+        <div className="btn flex  gap-[29px]">
           <img src="Instagram.svg" />
           <img src="LinkedIn.svg" />
           <img src="Group.svg" />
