@@ -12,7 +12,7 @@ const Footer = () => {
           <div className=" text-[2rem] leading-[48px] tracking-[0.96px] mob1:text-[28px]">
             Ricee
           </div>
-          <div>Our Rice, a Feast of Nutrients,<span className=" md1:block">&nbsp;a Banquet of Wellness.</span> </div>
+          <div>Our Rice, a Feast of Nutrients, <span className=" md1:block">a Banquet of Wellness.</span> </div>
         </div>
         <div className=" flex flex-col gap-[12px]">
           <div>
