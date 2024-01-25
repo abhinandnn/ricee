@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className=" pt-[18.9vh]  mx-[7.4vw] flex gap-[24px] w-[85.3vw] h-[74.4vh] lg1:h-[87vh] md1:h-[100%] md1:flex-col-reverse md1:items-center mob1:justify-center">
+    <div id="about" className=" pt-[18.9vh] mb-[13.15vh] mx-[7.4vw] flex gap-[24px] w-[85.3vw]  md1:flex-col-reverse md1:items-center mob1:justify-center">
       <div className=" flex flex-col gap-[2.6vh] w-[100%]  text-[1.25rem] text-[#000] font-gd font-[400]  leading-[30px] tracking-[0.3px] not-italic ">
         <div>
           {" "}
