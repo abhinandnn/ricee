@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
 
-    <div className=" relative flex justify-between mt-[24.3vh] mob1:mt-[17.9vh] w-[100vw]  bg-[#060606] text-[#FFF] pt-[6.3vh] pr-[9.09vw] pl-[7.22VW] text-[1.25rem] font-gd font-[400] leading-[30px] tracking-[0.6px] not-italic overflow-hidden  whitespace-nowrap  md:flex-col pb-[7.3vh] mob1:gap-[10.47vh] mob1:text-[16px]">
+    <div id="location" className=" relative flex justify-between mt-[24.3vh] mob1:mt-[17.9vh] w-[100vw]  bg-[#060606] text-[#FFF] pt-[6.3vh] pr-[9.09vw] pl-[7.22VW] text-[1.25rem] font-gd font-[400] leading-[30px] tracking-[0.6px] not-italic overflow-hidden  whitespace-nowrap  md:flex-col pb-[7.3vh] mob1:gap-[10.47vh] mob1:text-[16px]">
 
     
 
