@@ -19,8 +19,8 @@ function Products() {
 <Image src={design} className='absolute lg:hidden right-0 top-[8rem] rotate-180'/>
 
 <div className='mt-[5rem] flex gap-[6rem] xl:gap-[4rem] md1:flex-col'>
-    <Product weight={2} background={background1} text1={'2KG Pack - Handy and Convenient'} text2={'Ideal for small families or those practicing moderation, our 2KG pack is the perfect choice.'}/>
-    <Product weight={5} background={background2} text1={'5KG Pack - For Rice Enthusiasts'} text2={'Our 5KG Pack caters to families and individuals with a higher consumption of rice.'} />
+    <Product price={249} weight={2} background={background1} text1={'1KG Pack - Handy and Convenient'} />
+    <Product price={1245} weight={5} background={background2} text1={'5KG Pack - For Rice Enthusiasts'} />
 
 </div>
     </div>

@@ -24,7 +24,7 @@ Products
     </div>
 <Image onClick={()=>setHamburger(!hamburger)} className='hidden sm:inline cursor-pointer' src={hamburgerimg}/>
     </div>
-    {<div  className={`hidden sm:flex sm:${hamburger ? 'w-[10rem]' : 'w-[10rem] right-[-10rem]'} gap-2 bg-white text-[1.25rem] flex-col absolute right-0 transition-all duration-600 ease-in`}>
+    {<div  className={`hidden sm:flex sm:${hamburger ? 'w-[10rem]' : 'w-[10rem] right-[-10rem]'} gap-2 bg-white text-[1.25rem] flex-col absolute right-0 transition-all duration-500 ease-in`}>
     <Link onClick={()=>setHamburger(!hamburger)} href="#about" className='py-[0.3rem] pl-[1rem]'>
 About
 </Link>
