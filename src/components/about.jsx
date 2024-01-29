@@ -52,8 +52,8 @@ const About = () => {
                 for the first time after attaining enlightenment’, villagers
                 asked him for Prasad (Gift), Buddha gave them some grains of
                 kalanamak rice and asked them to sow in marshy land and said,
-                "It will have a typical aroma and will always remind people of
-                me". It was granted the Geographical Indication (Gl) Tag in 2012
+                &quot;It will have a typical aroma and will always remind people of
+                me&quot;. It was granted the Geographical Indication (Gl) Tag in 2012
                 by the Government of India. It is rich in micronutrients such as
                 Iron and Zinc. It has double protein that of common rice and has
                 a low Glycemic Index making it relatively sugar-Free and
@@ -127,7 +127,7 @@ const About = () => {
             quality, authenticity, and sustainability in their daily meals.
             Through innovative practices, ethical sourcing, and a relentless
             pursuit of excellence, we aim to redefine the standard for premium
-            rice, contributing to healthier lives and a sustainable planet".
+            rice, contributing to healthier lives and a sustainable planet.
           </div>
         </div>
 
