@@ -17,12 +17,9 @@ const Footer = () => {
         <div className=" flex flex-col gap-[12px]">
           <div>
             <img className=" inline" src="Location.svg" />
-            &nbsp;&nbsp;AKGEC, Ghaziabad, Uttar Pradesh, India
+            &nbsp;&nbsp;Lumbini Road, Kakrahwa Bazar, <span className=" block">&nbsp;&nbsp;&nbsp;&nbsp; Siddharthnagar, Uttar Pradesh, India</span>
           </div>
-          <div>
-            <img className=" inline" src="Location.svg" />
-            &nbsp;&nbsp;Sector 62, Noida, Uttar Pradesh, India
-          </div>
+         
         </div>
       </div>
       <div className=" flex flex-col gap-[4.2vh] ">
@@ -34,11 +31,11 @@ const Footer = () => {
           </div>
           <div className=" whitespace-nowrap flex">
             <img className=" inline" src="Phone.svg" />
-            &nbsp;&nbsp;+91 1234567890
+            &nbsp;&nbsp;+91 9540182525
           </div>
           <div className=" flex gap-[18px]">
             <img className=" inline" src="Mail.svg" />
-            <div>contact@ricee.com</div>
+            <div>info@pbagrofoods.com</div>
           </div>
         </div>
         <div className="btn flex  gap-[29px]">
@@ -51,6 +48,7 @@ const Footer = () => {
       <div className="bgHold relative">
         <img className="absolute mini:left-[-7rem] mob:left-[-5.5rem] sm:left-[-20%] md:left-[-14%] xl:left-[-6%]" src="rangoli.png" />
       </div>
+      <div className=" absolute bottom-[6px] left-[50%] translate-x-[-50%] text-[1rem] text-[#5d5c5c]">Copyright &copy; 2022 P&B Agro Foods-All Rights Reserved</div>
       </div>
     
   );
