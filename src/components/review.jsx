@@ -65,10 +65,9 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-              {" "}
               Ricee has seamlessly woven itself into the fabric of my kitchen,
               establishing its role as an indispensable culinary companion. I
-              prepared.. Its exceptional standard consistently{" "}
+              prepared.. Its exceptional standard consistently
             </div>
             <img
               src="comma2.svg"
@@ -90,9 +89,8 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-              {" "}
               I can definitely say Ricee exceeded my expectations. The 5KG pack
-              lasted me the entire month and the rice quality was exceptional. {" "}
+              lasted me the entire month and the rice quality was exceptional.
             </div>
             <img
               src="comma2.svg"
@@ -113,10 +111,9 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-              {" "}
               Ricee has truly become a kitchen staple for me. The generous 5KG
               pack not only lasted the entire month, but its exceptional quality
-              elevated every meal I prepared{" "}
+              elevated every meal I prepared.
             </div>
             <img
               src="comma2.svg"
