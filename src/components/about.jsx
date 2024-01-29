@@ -9,7 +9,7 @@ const About = () => {
       <div className=" flex flex-col gap-[2rem] w-[100%]  text-[1.25rem] text-[#000] font-gd font-[400]  leading-[30px] tracking-[0.3px] not-italic ">
         <div className=" flex flex-col gap-[1.5rem]">
           <div className="  flex flex-col items-center gap-[0px]">
-            <div className="text-[3rem] font-gd font-[400] leading-[57.6px]">
+            <div className="text-[3rem] sm:text-[2.5rem] font-gd font-[400] leading-[57.6px]">
               About Rice
             </div>
             <svg
@@ -92,7 +92,7 @@ const About = () => {
 
         <div className=" flex flex-col gap-[20px] mt-[1rem]">
           <div className="  flex flex-col items-center gap-[0px]">
-            <div className="text-[3rem] font-gd font-[400] leading-[57.6px]">
+            <div className="text-[3rem] sm:text-[2.5rem] font-gd font-[400] leading-[57.6px]">
               Our Vision
             </div>
             <svg
