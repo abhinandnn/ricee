@@ -91,7 +91,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col gap-[20px] mt-[3rem]">
+        <div className=" flex flex-col gap-[45.1px] mt-[3rem]">
           <div className="  flex flex-col items-center gap-[0px]">
             <div className="text-[3rem] sm:text-[2.5rem] font-gd font-[400] leading-[57.6px]">
               Our Vision
@@ -121,7 +121,7 @@ const About = () => {
               />
             </svg>
           </div>
-          <div className="  mob:text-center">
+          <div className="text-center">
             <span className=" font-bold ">At Ricee,</span> we envision a future
             where every household embraces the nourishing goodness of our
             premium rice varieties. Our commitment is to be the preferred choice
@@ -133,10 +133,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className=" text-[1.25rem] leading-[24px] tracking-[0.6px] mob:text-center">
-          Check Ricee’s Locations
-          <img src="arrow.svg" className=" inline"></img>
-        </div>
+       
       </div>
     </div>
   );

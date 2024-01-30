@@ -19,7 +19,7 @@ const Review = () => {
   }, []);
 
   return (
-    <div className=" w-[100vw] h-[62.89vh] flex flex-col gap-[6.9vh]  sm:[48vh]">
+    <div className=" w-[100vw] h-[62.89vh] flex flex-col gap-[53.1px]  sm:[48vh]">
       <div className="  flex flex-col items-center gap-[0px]">
         <div className="text-[3rem] sm:text-[2.5rem] font-gd font-[400] leading-[57.6px]">
           Reviews
