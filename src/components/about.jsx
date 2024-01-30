@@ -62,7 +62,7 @@ const About = () => {
               </div>
               <img
                 src="new!.jpg"
-                className=" h-[350px] w-[350px] rounded-[50%]"
+                className=" h-[300px] w-[300px] rounded-[50%]"
               />
             </div>
           </div>
@@ -85,7 +85,7 @@ const About = () => {
               </div>
               <img
                 src="new2.jpg"
-                className=" h-[350px] w-[350px] rounded-[50%]"
+                className=" h-[300px] w-[300px] rounded-[50%]"
               />
             </div>
           </div>
