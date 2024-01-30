@@ -37,27 +37,28 @@ const About = () => {
               />
             </svg>
           </div>
-          <div className=" flex flex-col md1:gap-[15px]">
+          <div className=" flex flex-col gap-[15px]">
             <div className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717]">
               Kalanamak rice
             </div>
             <div className=" flex gap-[40px] items-center md1:flex-col-reverse">
-              <div>
-                <span className=" font-bold ">Kalanamak</span> is a scented rice of Nepal and India. Its name means
-                black husk (Kala = black; the suffix ‘namak’ means salt). This
-                variety has been in cultivation since the Buddhist period (600
-                BC). It was featured in the book Speciality rices of the world
-                by the Food and Agriculture Organization of the United Nations.
-                Chinese monk Faxian wrote that when Buddha visited Kapilvastu
-                for the first time after attaining enlightenment’, villagers
-                asked him for Prasad (Gift), Buddha gave them some grains of
-                kalanamak rice and asked them to sow in marshy land and said,
-                &quot;It will have a typical aroma and will always remind people of
-                me&quot;. It was granted the Geographical Indication (Gl) Tag in 2012
-                by the Government of India. It is rich in micronutrients such as
-                Iron and Zinc. It has double protein that of common rice and has
-                a low Glycemic Index making it relatively sugar-Free and
-                suitable for diabetics.
+              <div className=" self-start">
+                <span className=" font-bold ">Kalanamak</span> is a scented rice
+                of Nepal and India. Its name means black husk (Kala = black; the
+                suffix ‘namak’ means salt). This variety has been in cultivation
+                since the Buddhist period (600 BC). It was featured in the book
+                Speciality rices of the world by the Food and Agriculture
+                Organization of the United Nations. Chinese monk Faxian wrote
+                that when Buddha visited Kapilvastu for the first time after
+                attaining enlightenment’, villagers asked him for Prasad (Gift),
+                Buddha gave them some grains of kalanamak rice and asked them to
+                sow in marshy land and said, &quot;It will have a typical aroma
+                and will always remind people of me&quot;. It was granted the
+                Geographical Indication (Gl) Tag in 2012 by the Government of
+                India. It is rich in micronutrients such as Iron and Zinc. It
+                has double protein that of common rice and has a low Glycemic
+                Index making it relatively sugar-Free and suitable for
+                diabetics.
               </div>
               <img
                 src="new!.jpg"
@@ -65,12 +66,12 @@ const About = () => {
               />
             </div>
           </div>
-          <div className=" flex flex-col mt-[10px] md1:gap-[15px] ">
+          <div className=" flex flex-col mt-[10px] gap-[15px] ">
             <div className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717]">
               P&B Agro Foods
             </div>
             <div className=" flex gap-[40px] items-center md1:flex-col-reverse">
-              <div>
+              <div className=" self-start">
                 P&B Agro Foods brings you the original and quality Kalanamak
                 rice from the lands of Siddharthnagar. We are on a mission to
                 let the world know about Kalanamak rice and its health benefits.
@@ -121,13 +122,14 @@ const About = () => {
             </svg>
           </div>
           <div className="  mob:text-center">
- <span className=" font-bold ">At Ricee,</span> we envision a future where every household
-            embraces the nourishing goodness of our premium rice varieties. Our
-            commitment is to be the preferred choice for families seeking
-            quality, authenticity, and sustainability in their daily meals.
-            Through innovative practices, ethical sourcing, and a relentless
-            pursuit of excellence, we aim to redefine the standard for premium
-            rice, contributing to healthier lives and a sustainable planet.
+            <span className=" font-bold ">At Ricee,</span> we envision a future
+            where every household embraces the nourishing goodness of our
+            premium rice varieties. Our commitment is to be the preferred choice
+            for families seeking quality, authenticity, and sustainability in
+            their daily meals. Through innovative practices, ethical sourcing,
+            and a relentless pursuit of excellence, we aim to redefine the
+            standard for premium rice, contributing to healthier lives and a
+            sustainable planet.
           </div>
         </div>
 
