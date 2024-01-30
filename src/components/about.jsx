@@ -91,7 +91,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col gap-[45.1px] mt-[3rem]">
+        <div className=" flex flex-col gap-[37.1px] mt-[3rem]">
           <div className="  flex flex-col items-center gap-[0px]">
             <div className="text-[3rem] sm:text-[2.5rem] font-gd font-[400] leading-[57.6px]">
               Our Vision
