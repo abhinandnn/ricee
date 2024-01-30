@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className=" pt-[8rem] mb-[13.15vh] mx-[5vw] flex gap-[1.5rem]   md1:flex-col-reverse md1:items-center mob1:justify-center"
+      className=" pt-[5.5rem] mb-[5.5rem] mx-[5vw] flex gap-[1.5rem]   md1:flex-col-reverse md1:items-center mob1:justify-center"
     >
       <div className=" flex flex-col gap-[2rem] w-[100%]  text-[1.25rem] text-[#000] font-gd font-[400]  leading-[30px] tracking-[0.3px] not-italic ">
         <div className=" flex flex-col gap-[1.5rem]">
@@ -60,7 +60,7 @@ const About = () => {
                 suitable for diabetics.
               </div>
               <img
-                src="kala.PNG"
+                src="new!.jpg"
                 className=" h-[350px] w-[350px] rounded-[50%]"
               />
             </div>
@@ -83,14 +83,14 @@ const About = () => {
                 and reliable organization both for our farmers and customers.
               </div>
               <img
-                src="kala.PNG"
+                src="new2.jpg"
                 className=" h-[350px] w-[350px] rounded-[50%]"
               />
             </div>
           </div>
         </div>
 
-        <div className=" flex flex-col gap-[20px] mt-[1rem]">
+        <div className=" flex flex-col gap-[20px] mt-[3rem]">
           <div className="  flex flex-col items-center gap-[0px]">
             <div className="text-[3rem] sm:text-[2.5rem] font-gd font-[400] leading-[57.6px]">
               Our Vision

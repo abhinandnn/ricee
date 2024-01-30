@@ -9,7 +9,7 @@ function Product({background,weight,text1,price}) {
 {text1}
 </div>
 <div className='text-[1.2rem] lg:text-[1rem] flex flex-col  mob:text-[0.82rem]'>
-    <span>Price : Rs. {price}+delivery charges</span>
+    <span>Price : Rs. {price} + delivery charges</span>
     {weight===2&&<span>Minimum order : 2kg</span>}
     <div className='invisible opacity-0 group-hover:opacity-100 h-0 group-hover:h-auto group-hover:visible flex flex-col group-hover:pt-6 md:group-hover:pt-4 mob:group-hover:pt-3 group-hover:transform translate-y-[100%] group-hover:translate-y-[0%] group-hover:transition-all duration-300 '>
 <span className='invisible opacity-0 group-hover:opacity-100 group-hover:visible'>Nutritional Facts (100gm)</span>
