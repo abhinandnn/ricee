@@ -16,14 +16,14 @@ function Health() {
 <path d="M222.62 6.10474C220.32 6.10474 219.02 4.80474 219.12 3.10474C219.22 1.40474 221.12 -0.0952689 222.92 0.00473111C224.32 0.104731 225.62 1.00474 225.92 2.20474C226.22 3.50474 225.52 4.90474 224.12 5.60474C223.62 5.90474 222.92 6.00474 222.62 6.10474Z" fill="#762023"/>
 </svg>
 <div className='mt-[4rem] text-[1.375rem] px-4 sm:gap-[4rem] flex flex-wrap mob:flex-col gap-[9.4rem] justify-center items-center'>
-    <div className='flex flex-col justify-center items-center gap-[1.5rem]'>
-        <Image src={health1} className='transform scale-80'/>
+    <div className='flex flex-col justify-center items-center gap-[1.2rem]'>
+        <Image src={health1} className='transform scale-75'/>
 <span className='w-[10rem] text-center'>
 Aromatic & delicious
 </span>
     </div>
-    <div className='flex flex-col justify-center items-center gap-[1.5rem]'>
-        <Image src={health2} className='transform scale-80'/>
+    <div className='flex flex-col justify-center items-center gap-[1.2rem]'>
+        <Image src={health2} className='transform scale-75'/>
 <div className='w-[10rem] flex flex-col text-center'>
 High in Protien
 <span className='text-[1rem]'>
@@ -31,14 +31,14 @@ High in Protien
 </span>
 </div>
     </div>
-    <div className='flex flex-col justify-center items-center gap-[1.5rem]'>
-        <Image src={health3} className='transform scale-80'/>
+    <div className='flex flex-col justify-center items-center gap-[1.2rem]'>
+        <Image src={health3} className='transform scale-75'/>
 <span className='w-[10rem] text-center'>
 Rich in zinc & Iron
 </span>
     </div>
-    <div className='flex flex-col justify-center items-center gap-[1.5rem]'>
-        <Image src={health4} className='transform scale-80'/>
+    <div className='flex flex-col justify-center items-center gap-[1.2rem]'>
+        <Image src={health4} className='transform scale-75'/>
 <div className='w-[10rem] flex flex-col text-center'>
 Diabetic Friendly
 <span className='text-[1rem]'>

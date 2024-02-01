@@ -1,6 +1,5 @@
 "use client"
 import React from "react";
-import ReactWhatsapp from 'react-whatsapp';
 const Share = () => {
   return (
     <div className="relative w-[100vw] pb-[12.56vh] border-t-[1px] border-b-[1px] border-solid border-[#744150] bg-[#FFE6CE] pl-[7.43vw] pt-[10.2vh] md:pt-[5.89vh] md:pl-[4.44vw] md:pb-[6.9vh]  overflow-hidden " >
