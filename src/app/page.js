@@ -13,7 +13,7 @@ export default function Home() {
     <TopBanner/>
     <Health/>
     <Products/>
-    <Share/>
+    
     <About/>
     <Review/>
     <Footer/>

@@ -1,20 +1,15 @@
 import React from "react";
 
-
 const Footer = () => {
   return (
     <div
       id="location"
       className=" relative flex justify-between mt-[24.3vh] mob1:mt-[17.9vh] w-[100vw]  bg-[#060606] text-[#FFF] pt-[6.3vh] pr-[9.09vw] pl-[7.22VW] text-[1.25rem] font-gd font-[400] leading-[30px] tracking-[0.6px] not-italic overflow-hidden  whitespace-nowrap  md:flex-col md:gap-[80px] pb-[7.3vh]  mob1:text-[16px]"
     >
-      <div className=" flex flex-col gap-[48px] ">
+      <div className=" flex flex-col gap-[24px] ">
         <div className=" flex flex-col gap-[24px]">
           <div className=" text-[2rem] leading-[48px] tracking-[0.96px] mob1:text-[28px]">
-            Ricee
-          </div>
-          <div>
-            Our Rice, a Feast of Nutrients,{" "}
-            <span className=" md1:block">a Banquet of Wellness.</span>{" "}
+           Ricee
           </div>
         </div>
         <div className=" flex flex-col gap-[12px]">
@@ -27,7 +22,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col gap-[32px] ">
+      <div className=" flex flex-col gap-[30px] ">
         <div className=" mob1: text-[20px]">Contact Details</div>
         <div className=" flex flex-col gap-[2.1vh]">
           <div className=" whitespace-nowrap flex">

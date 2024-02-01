@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className=" pt-[5.5rem] mb-[5.5rem] mx-[5vw] flex gap-[1.5rem]   md1:flex-col-reverse md1:items-center mob1:justify-center"
+      className=" mb-[5.5rem] mx-[5vw] flex gap-[1.5rem]   md1:flex-col-reverse md1:items-center mob1:justify-center"
     >
       <div className=" flex flex-col gap-[2rem] w-[100%]  text-[1.25rem] text-[#000] font-gd font-[400]  leading-[30px] tracking-[0.3px] not-italic ">
         <div className=" flex flex-col gap-[1.5rem]">
@@ -37,12 +37,12 @@ const About = () => {
               />
             </svg>
           </div>
-          <div className=" flex flex-col gap-[15px]">
+          <div className=" flex flex-col w-[100%] gap-[15px]">
             <div className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717]">
               Kalanamak rice
             </div>
-            <div className=" flex gap-[40px] items-center md1:flex-col-reverse">
-              <div className=" self-start">
+            <div className=" flex flex-row-reverse gap-[40px] w-[100%] items-center md1:flex-col-reverse">
+              <div className=" self-start w-[60%] md1:text-center md1:w-[100%]">
                 <span className=" font-bold ">Kalanamak</span> is a scented rice
                 of Nepal and India. Its name means black husk (Kala = black; the
                 suffix ‘namak’ means salt). This variety has been in cultivation
@@ -60,18 +60,17 @@ const About = () => {
                 Index making it relatively sugar-Free and suitable for
                 diabetics.
               </div>
-              <img
-                src="new!.jpg"
-                className=" h-[300px] w-[300px] rounded-[50%]"
-              />
+              <div className=" w-[40%] min-w-[321px]  ">
+                <img src="new!.jpg" className=" rounded-[30px] " />
+              </div>
             </div>
           </div>
-          <div className=" flex flex-col mt-[10px] gap-[15px] ">
+          <div className=" flex flex-col w-[100%]mt-[10px] gap-[15px] ">
             <div className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717]">
               P&B Agro Foods
             </div>
-            <div className=" flex gap-[40px] items-center md1:flex-col-reverse">
-              <div className=" self-start">
+            <div className=" flex gap-[40px] w-[100%] items-center md1:flex-col-reverse">
+              <div className=" self-start w-[60%] md1:text-center md1:w-[100%]">
                 P&B Agro Foods brings you the original and quality Kalanamak
                 rice from the lands of Siddharthnagar. We are on a mission to
                 let the world know about Kalanamak rice and its health benefits.
@@ -83,10 +82,9 @@ const About = () => {
                 take necessary steps if required. P&B aims to become a trustable
                 and reliable organization both for our farmers and customers.
               </div>
-              <img
-                src="new2.jpg"
-                className=" h-[300px] w-[300px] rounded-[50%]"
-              />
+              <div className=" w-[40%] min-w-[321px] ">
+                <img src="new2.jpg" className=" rounded-[30px] " />
+              </div>
             </div>
           </div>
         </div>
@@ -132,8 +130,6 @@ const About = () => {
             sustainable planet.
           </div>
         </div>
-
-       
       </div>
     </div>
   );
