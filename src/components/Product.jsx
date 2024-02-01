@@ -11,16 +11,15 @@ function Product({background,weight,text1,price}) {
 {text1}
 </div>
 <div className='text-[1.2rem] lg:text-[1rem] flex flex-col  mob:text-[0.82rem]'>
-    <span >Price : Rs. {price}<span className='tracking-widest'>+</span>delivery charges</span>
+    <span >Price : Rs. {price}<span  className='tracking-widest'>+</span>delivery charges</span>
     {weight===2&&<span>Minimum order : 2kg</span>}
-    <div className={` flex flex-col transition-all transform duration-300 ${nutri?'opacity-100 h-auto visible pt-6 md:pt-4 mob:pt-3 translate-y-[0%]':'invisible opacity-0 h-0 translate-y-[100%]'}`}>
+    <div className={` flex flex-col transform trasition duration-300 ${nutri?'opacity-100 h-auto visible pt-6 md:pt-4 mob:pt-3 translate-y-[0%]':'invisible opacity-0 h-0 translate-y-[100%]'}`}>
 <span className={!nutri?'invisible opacity-0':'opacity-100 visible'}>Nutritional Facts (100gm)</span>
 <span className={!nutri?'invisible opacity-0':'opacity-100 visible'}>Energy: 391 kcals</span>
 <span className={!nutri?'invisible opacity-0':'opacity-100 visible'}>Protein: 9.60 gm</span>
 <span className={!nutri?'invisible opacity-0':'opacity-100 visible'}>Carbs: 92.90 gm</span>
 <span className={!nutri?'invisible opacity-0':'opacity-100 visible'}>Iron: 38.20 mg</span>
 <span className={!nutri?'invisible opacity-0':'opacity-100 visible'}>Zinc: 3.70 mg</span>
-
 
     </div>
 </div>
