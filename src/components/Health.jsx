@@ -17,7 +17,7 @@ function Health() {
 </svg>
 <div className='mt-[4rem] text-[1.375rem] px-4 sm:gap-[4rem] flex flex-wrap mob:flex-col gap-[9.4rem] justify-center items-center'>
     <div className='flex flex-col justify-center items-center gap-[1.2rem]'>
-        <Image src={health1} className='transform scale-75'/>
+        <Image src={health1} className='transform scale-75 scal'/>
 <span className='w-[10rem] text-center'>
 Aromatic & delicious
 </span>
