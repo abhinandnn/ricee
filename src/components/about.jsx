@@ -7,7 +7,7 @@ const About = () => {
       className=" mb-[5.5rem] mx-[5vw] flex gap-[1.5rem]   md1:flex-col-reverse md1:items-center mob1:justify-center"
     >
       <div className=" flex flex-col gap-[2rem] w-[100%]  text-[1.25rem] text-[#000] font-gd font-[400]  leading-[30px] tracking-[0.3px] not-italic ">
-        <div className=" flex flex-col gap-[1.5rem]">
+        <div className=" flex flex-col gap-[3.5rem]">
           <div className="  flex flex-col items-center gap-[0px]">
             <div className="text-[3rem] sm:text-[2.5rem] font-gd font-[400] leading-[57.6px]">
               About Rice
@@ -38,7 +38,7 @@ const About = () => {
             </svg>
           </div>
           <div className=" flex flex-col w-[100%] gap-[15px]">
-            <div className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717]">
+            <div className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717] md1:self-center">
               Kalanamak rice
             </div>
             <div className=" flex flex-row-reverse gap-[40px] w-[100%] items-center md1:flex-col-reverse">
@@ -66,7 +66,7 @@ const About = () => {
             </div>
           </div>
           <div className=" flex flex-col w-[100%]mt-[10px] gap-[15px] ">
-            <div className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717]">
+            <div className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717] md1:self-center">
               P&B Agro Foods
             </div>
             <div className=" flex gap-[40px] w-[100%] items-center md1:flex-col-reverse">

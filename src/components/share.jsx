@@ -9,7 +9,7 @@ const Share = () => {
         <div className=" font-gd text-[3rem] not-italic font-[400] leading-[61.44px] text-[#0F0D0A] mob1:text-[2rem] mob1:leading-[40.96px] z-10 ">Connect now with our experts for business enquiries</div>
         <button onClick={()=>typeof window !== 'undefined'?window.open('https://web.whatsapp.com://send?text=WhatsApp now to order products'):null} className="z-10 text-[#FFF] transition-hover duration-300 hover:bg-white hover:text-mar border border-mar w-[10.75rem] h-[3.6875rem]  mob:h-[56px] mob:w-[10rem] mob:gap-[8px]   rounded-[12px] bg-[#762023] flex justify-center items-center gap-[12px]">
             <img src="logo.svg"></img>
-            <div className="btn  font-[400] font-gd leading-[19.2px] tracking-[0.48px] not-italic text-[1rem] cursor-pointer whitespace-nowrap">Whatsapp Now</div>
+            <div className="btn  font-[400] font-gd leading-[19.2px] tracking-[0.48px] not-italic text-[1git rem] cursor-pointer whitespace-nowrap">Whatsapp Now</div>
         </button>
         
       </div>
