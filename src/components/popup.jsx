@@ -18,9 +18,9 @@ const Popup = ({onClose,show}) => {
     open={show}
     onClose={onClose}
   >
-    <div style={style} className="relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[56px] px-[40px] pb-[44px]">
+    <div style={style} className="relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[56px] px-[40px] pb-[44px] mob1:px-[2.7vw] mob1:w-[90vw]">
       <div className=" flex flex-col items-center gap-[0px] ">
-        <div className="text-[2.5rem]  font-gd font-[400] leading-[57.6px]">
+        <div className="text-[2.5rem] whitespace-nowrap  font-gd font-[400] leading-[57.6px] mob:text-[2.2rem]">
           Kalanamak Rice
         </div>
         <svg
@@ -48,31 +48,31 @@ const Popup = ({onClose,show}) => {
           />
         </svg>
       </div>
-      <div className=" relative flex gap-0 w-[100%] justify-center flex-shrink-0 mt-[40px]">
-        <div className=" absolute left-0 top-[15px]">
-          <img src="first.svg"></img>
+      <div className=" relative flex gap-0 w-[100%] mob1:w-[330px] mini1:w-[80vw] mob1:self-center justify-center flex-shrink-0 mt-[40px]">
+        <div className=" absolute left-0  top-[15px] mob1:h-[100px] ">
+          <img src="first.svg"  className=" mob1:h-[100%] mob1:bg-cover"></img>
         </div>
-        <div className=" flex-shrink-0 z-10">
-          <img src="rices.svg" />
+        <div className=" flex-shrink-0 z-10  mob1:h-[130px]">
+          <img src="rices.svg" className=" mob1:h-[100%] mob1:bg-cover" />
         </div>
-        <div className=" absolute right-0 top-[15px] ">
+        <div className=" absolute right-0 top-[15px]  mob1:h-[100px] ">
           {" "}
-          <img src="coffee.svg" />
+          <img src="coffee.svg"  className=" mob1:h-[100%] mob1:bg-cover" />
         </div>
       </div>
       <div className=" flex flex-col gap-[22px] font-[400] font-gd">
-        <div className=" text-[14px]  leading-[21px] text-center">
+        <div className=" text-[14px]   leading-[21px] text-center">
           High in Protein as compared to normal rice (11%) Rich in Iron & Zinc
           Diabetic friendly (GI &lt; 55) Rich in Antioxidants &quot;Anthocyanin&quot;
           Improves heart & skin health.
         </div>
-        <div className=" flex gap-[3rem] ml-[2rem]">
-          <div className=" text-[20px] w-[14.8rem] leading-[30px]">
-            Nutritional Facts (100g) Energy : 391 kcals <span className=" block">Protien : 9.60 gm</span> <span className=" block">Carbs
+        <div className=" flex gap-[3rem] mob:gap-[1.5rem] ml-[2rem] mob1:ml-[1rem]">
+          <div className=" text-[20px]  w-[14.8rem] mob:w-[13rem] leading-[30px] whitespace-nowrap">
+            Nutritional Facts (100g) <span className=" block">Energy : 391 kcals</span>  <span className=" block">Protien : 9.60 gm</span> <span className=" block">Carbs
             : 92.90gm </span> <span className=" block">Iron : 38.20 mg</span><span className=" block">Zinc : 3.70 mg</span> 
           </div>
           <div onClick={() => {onClose();
-    }} className="z-10 self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer">
+    }} className="z-10 self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer whitespace-nowrap">
             Show less
 
           </div>
