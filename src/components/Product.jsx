@@ -2,10 +2,18 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Popup from "./popup";
+import { Link } from "react-scroll";
 function Product({ background, weight, text1, price }) {
+  const [nutri, setNutri] = useState(false);
   const [active, setActive] = useState(false);
-  const[showReview,setShowReview]=useState(false)
+  const[showPopup,setShowPopup]=useState(false)
+  const openPopup = () => {
+    setShowPopup(true);
+  };
   
+  const closePopup = () => {
+    setShowPopup(false);
+  };
   return (
     <>
     <div className="z-10 bg-white rounded-[1rem]">
@@ -34,7 +42,7 @@ function Product({ background, weight, text1, price }) {
           </div>
           <span
             className="text-[1.25rem] cursor-pointer text-[#762023]"
-            onClick={()=>setShowReview(true)}
+            onClick={openPopup}
           >
             View more details
           </span>
@@ -85,7 +93,7 @@ function Product({ background, weight, text1, price }) {
         <div className=" flex flex-col gap-[22px] font-[400] font-gd">
           <div className=" text-[14px]  leading-[21px] text-center">
             High in Protein as compared to normal rice (11%) Rich in Iron & Zinc
-            Diabetic friendly (GI &lt; 55) Rich in Antioxidants &quot;Anthocyanin&quot;
+            Diabetic friendly (GI &lt; 55) Rich in Antioxidants "Anthocyanin"
             Improves heart & skin health.
           </div>
           <div className=" flex gap-[3rem] ml-[2rem]">
@@ -95,14 +103,13 @@ function Product({ background, weight, text1, price }) {
               <span className=" block">Carbs : 92.90gm </span>{" "}
               <span className=" block">Iron : 38.20 mg</span>
               <span className=" block">Zinc : 3.70 mg</span>
-            </div>             
+            </div>
+             
             <div
               className="self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer z-20"
             >
               Show less
             </div>
-          
-
           </div>
         </div>
         <div className=" absolute right-0 bottom-0">
@@ -110,7 +117,7 @@ function Product({ background, weight, text1, price }) {
         </div>
       </div>
     </div>
-    {showReview&&<Popup onClose={()=>setShowReview(false)} show={showReview}/>}
+    {<Popup onClose={closePopup} show={showPopup}/>}
     </>
   );
 }
