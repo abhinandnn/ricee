@@ -18,7 +18,7 @@ function Product({ background, weight, text1, price }) {
     <>
     <div className="z-10 bg-white rounded-[1rem]">
       <div
-  className={` flex-col p-8 pt-[3rem] items-center gap-[1rem] font-gd relative w-[31.5rem] h-[41.5rem] ${!active ? 'flex' : 'hidden'}`}
+  className={` flex-col p-8 pt-[2rem] items-center font-gd relative w-[31.5rem] h-[38.25rem] ${!active ? 'flex' : 'hidden'}`}
 >
         <div
           className={`${
@@ -30,12 +30,12 @@ function Product({ background, weight, text1, price }) {
             className="drop-shadow-[0_20px_20px_rgba(0,0,0,0.5)]"
           />
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-2">
           <div className="text-[1.5rem] text-black">{text1}</div>
           <div className="flex justify-between w-[28.5rem] items-center">
             <span className="text-[3.5rem] text-black">₹1245</span>
             <button
-              className={`transition-hover duration-300 hover:bg-white hover:text-mar border border-mar w-[11rem] h-[3.8875rem] bg-mar rounded-[0.75rem] text-[1.75rem] text-white`}
+              className={`transition-hover duration-300 hover:bg-white hover:text-mar border border-mar w-[10.8rem] h-[3.75rem] bg-mar rounded-[0.75rem] text-[1.5rem] text-white`}
             >
               Buy now
             </button>
@@ -93,7 +93,7 @@ function Product({ background, weight, text1, price }) {
         <div className=" flex flex-col gap-[22px] font-[400] font-gd">
           <div className=" text-[14px]  leading-[21px] text-center">
             High in Protein as compared to normal rice (11%) Rich in Iron & Zinc
-            Diabetic friendly (GI &lt; 55) Rich in Antioxidants "Anthocyanin"
+            Diabetic friendly (GI &lt; 55) Rich in Antioxidants
             Improves heart & skin health.
           </div>
           <div className=" flex gap-[3rem] ml-[2rem]">

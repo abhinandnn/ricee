@@ -74,7 +74,6 @@ const Popup = ({onClose,show}) => {
           <div onClick={() => {onClose();
     }} className="z-10 self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer">
             Show less
-
           </div>
         </div>
 
