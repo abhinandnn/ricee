@@ -6,6 +6,7 @@ import Footer from "@/components/footer"
 import Products from "@/components/Products"
 import Review from "@/components/review"
 import Health from "@/components/Health"
+
 export default function Home() {
   return (
     <div className="font-gd font-light relative scroll-smooth bg-[#FFF8F2]">
@@ -17,6 +18,7 @@ export default function Home() {
     <About/>
     <Review/>
     <Footer/>
+   
     </div>
   )
 }
