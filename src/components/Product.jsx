@@ -110,7 +110,7 @@ function Product({ background, weight, text1, price }) {
         </div>
       </div>
     </div>
-    {showReview&&<Popup onClose={()=>setShowReview} show={showReview}/>}
+    {showReview&&<Popup onClose={()=>setShowReview(false)} show={showReview}/>}
     </>
   );
 }

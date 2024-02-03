@@ -60,10 +60,12 @@ show&&
             Nutritional Facts (100g) Energy : 391 kcals <span className=" block">Protien : 9.60 gm</span> <span className=" block">Carbs
             : 92.90gm </span> <span className=" block">Iron : 38.20 mg</span><span className=" block">Zinc : 3.70 mg</span> 
           </div>
-          <div onClick={()=>onClose()} className="z-10 self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer">
-<Link className='cursor-pointer' to="products" spy={true} smooth={true} offset={0} duration={200}>
+          <div onClick={() => {
+     const anchor = document.querySelector('#products')
+     anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+     onClose();
+    }} className="z-10 self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer">
             Show less
-          </Link>
 
           </div>
         </div>
