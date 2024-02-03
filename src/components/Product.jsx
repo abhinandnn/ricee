@@ -85,7 +85,7 @@ function Product({ background, weight, text1, price }) {
         <div className=" flex flex-col gap-[22px] font-[400] font-gd">
           <div className=" text-[14px]  leading-[21px] text-center">
             High in Protein as compared to normal rice (11%) Rich in Iron & Zinc
-            Diabetic friendly (GI &lt; 55) Rich in Antioxidants "Anthocyanin"
+            Diabetic friendly (GI &lt; 55) Rich in Antioxidants &quot;Anthocyanin&quot;
             Improves heart & skin health.
           </div>
           <div className=" flex gap-[3rem] ml-[2rem]">

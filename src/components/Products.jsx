@@ -18,7 +18,7 @@ function Products() {
 <Image src={design} className='lg:hidden absolute left-0 bottom-[8rem]'/>
 <Image src={design} className='absolute lg:hidden right-0 top-[8rem] rotate-180'/>
 <div className='mt-[5rem]'>
-<div className='flex gap-[6rem] lg:my-[-5rem] sm:my-[-11rem] transform lg:scale-90 xl:scale-95 sm:scale-75 items-center justify-center flex-wrap'>
+<div className='flex gap-[6rem] lg:my-[-5rem] sm:my-[-11rem] transform lg:scale-90 scale-95 my-[-2rem] sm:scale-75 items-center justify-center flex-wrap'>
     <Product price={249} weight={2} background={background1} text1={'1KG Pack - Handy and Convenient'} />
     <Product price={1245} weight={5} background={background2} text1={'5KG Pack - For Rice Enthusiasts'} />
 
