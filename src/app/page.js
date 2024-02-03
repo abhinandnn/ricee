@@ -18,7 +18,6 @@ export default function Home() {
     <About/>
     <Review/>
     <Footer/>
-   
     </div>
   )
 }

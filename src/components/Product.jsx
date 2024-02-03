@@ -3,11 +3,12 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Popup from "./popup";
 function Product({ background, weight, text1, price }) {
-  const [nutri, setNutri] = useState(false);
   const [active, setActive] = useState(false);
-
+  const[showReview,setShowReview]=useState(false)
+  
   return (
-    <div className="z-10 bg-white ">
+    <>
+    <div className="z-10 bg-white rounded-[1rem]">
       <div
   className={` flex-col p-8 pt-[3rem] items-center gap-[1rem] font-gd relative w-[31.5rem] h-[41.5rem] ${!active ? 'flex' : 'hidden'}`}
 >
@@ -33,7 +34,7 @@ function Product({ background, weight, text1, price }) {
           </div>
           <span
             className="text-[1.25rem] cursor-pointer text-[#762023]"
-            onClick={() => setActive(true)}
+            onClick={()=>setShowReview(true)}
           >
             View more details
           </span>
@@ -94,13 +95,14 @@ function Product({ background, weight, text1, price }) {
               <span className=" block">Carbs : 92.90gm </span>{" "}
               <span className=" block">Iron : 38.20 mg</span>
               <span className=" block">Zinc : 3.70 mg</span>
-            </div>
+            </div>             
             <div
               className="self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer z-20"
-              onClick={() => setActive(false)}
             >
               Show less
             </div>
+          
+
           </div>
         </div>
         <div className=" absolute right-0 bottom-0">
@@ -108,6 +110,8 @@ function Product({ background, weight, text1, price }) {
         </div>
       </div>
     </div>
+    {showReview&&<Popup onClose={()=>setShowReview} show={showReview}/>}
+    </>
   );
 }
 

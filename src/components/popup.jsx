@@ -1,7 +1,12 @@
 import React from "react";
+import { Modal } from "react-overlays";
+import { Link } from "react-scroll";
 
-const Popup = () => {
+const Popup = ({onClose,show}) => {
   return (
+show&&
+    <Modal
+    opacity='0.5' show={show} className="z-1000 bg-black bg-opacity-50 flex items-center justify-center h-[100%] w-[100%] absolute top-0">
     <div className=" relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[56px] px-[40px] pb-[44px]">
       <div className=" flex flex-col items-center gap-[0px] ">
         <div className="text-[2.5rem]  font-gd font-[400] leading-[57.6px]">
@@ -55,13 +60,19 @@ const Popup = () => {
             Nutritional Facts (100g) Energy : 391 kcals <span className=" block">Protien : 9.60 gm</span> <span className=" block">Carbs
             : 92.90gm </span> <span className=" block">Iron : 38.20 mg</span><span className=" block">Zinc : 3.70 mg</span> 
           </div>
-          <div className="self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer">Show less</div>
+          <div onClick={()=>onClose()} className="z-10 self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer">
+<Link className='cursor-pointer' to="products" spy={true} smooth={true} offset={0} duration={200}>
+            Show less
+          </Link>
+
+          </div>
         </div>
 
       </div>
       <div className=" absolute right-0 bottom-0"><img src="foot.svg"
       /></div>
     </div>
+    </Modal>
   );
 };
 
