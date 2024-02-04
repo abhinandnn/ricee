@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Popup from "./popup";
-import { Link } from "react-scroll";
+import Link from "next/link";
 function Product({ background, weight, text1, price }) {
   const [nutri, setNutri] = useState(false);
   const [active, setActive] = useState(false);
@@ -34,11 +34,13 @@ function Product({ background, weight, text1, price }) {
           <div className="text-[1.5rem] text-black">{text1}</div>
           <div className="flex justify-between w-[28rem] items-center">
             <span className="text-[3rem] leading-[3rem] text-black">{weight==5?'₹1245':'₹249'}</span>
+            <Link target="_blank" href={`https://wa.me/919540182525?text=Place+an+order+for+${weight==2?'1kg':'5kg'}+pack`}>
             <button
               className={`transition-hover duration-300 hover:bg-white hover:text-mar border border-mar w-[8.8rem] h-[3.5rem] bg-mar rounded-[0.75rem] text-[1.125rem] text-white`}
             >
               Buy now
             </button>
+            </Link>
           </div>
           <span
             className="text-[1.25rem] cursor-pointer text-[#762023]"
