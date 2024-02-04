@@ -18,7 +18,8 @@ const Popup = ({onClose,show}) => {
     open={show}
     onClose={onClose}
   >
-    <div style={style} className="relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[56px] px-[40px] pb-[44px] mob1:px-[2.7vw] mob1:w-[90vw]">
+    <div style={style}>
+     <div className="scale-75 relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[56px] px-[40px] pb-[44px] mob1:px-[2.7vw] mob1:w-[90vw]">
       <div className=" flex flex-col items-center gap-[0px] ">
         <div className="text-[2.5rem] whitespace-nowrap  font-gd font-[400] leading-[57.6px] mob:text-[2.2rem]">
           Kalanamak Rice
@@ -80,6 +81,7 @@ const Popup = ({onClose,show}) => {
       </div>
       <div className=" absolute right-0 bottom-0"><img src="foot.svg"
       /></div>
+    </div>
     </div>
     </Modal>
   );
