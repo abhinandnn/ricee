@@ -73,13 +73,13 @@ const Popup = ({onClose,show}) => {
             : 92.90gm </span> <span className=" block">Iron : 38.20 mg</span><span className=" block">Zinc : 3.70 mg</span> 
           </div>
           <div onClick={() => {onClose();
-    }} className="z-10 absolute bottom-[3rem] right-[5rem] self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer whitespace-nowrap">
+    }} className="z-10 absolute bottom-[3rem] right-[5rem] sm:bottom-[1.5rem] sm:right-[2rem] self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer whitespace-nowrap">
             Show less
           </div>
         </div>
 
       </div>
-      <div className=" absolute right-0 bottom-0"><img src="foot.svg"
+      <div className="absolute right-0 bottom-0 sm:hidden"><img src="foot.svg"
       /></div>
     </div>
     </div>
