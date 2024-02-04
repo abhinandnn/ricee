@@ -19,7 +19,7 @@ const Popup = ({onClose,show}) => {
     onClose={onClose}
   >
     <div style={style}>
-     <div className="scale-80 relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[20px] px-[40px] pb-[24px] mob1:px-[2.7vw] mob1:w-[90vw]">
+     <div className="scale-80 mob:scale-75 mini1:scale-70 relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[20px] px-[25px] mini1:w-[120vw] mx-[-5rem] pb-[24px]">
       <div className=" flex flex-col items-center gap-[0px] ">
         <div className="text-[2.5rem] whitespace-nowrap  font-gd font-[400] leading-[57.6px] mob:text-[2.2rem]">
           Kalanamak Rice
@@ -67,19 +67,19 @@ const Popup = ({onClose,show}) => {
           Diabetic friendly (GI &lt; 55) Rich in Antioxidants &quot;Anthocyanin&quot;
           Improves heart & skin health.
         </div>
-        <div className=" flex gap-[3rem] mob:gap-[1.5rem] ml-[2rem] mob1:ml-[1rem]">
+        <div className=" flex gap-[3rem] mob:gap-[1.5rem] ml-[2rem] mob1:ml-[0.5rem]">
           <div className=" text-[20px]  w-[14.8rem] mob:w-[13rem] leading-[30px] whitespace-nowrap">
             Nutritional Facts (100g) <span className=" block">Energy : 391 kcals</span>  <span className=" block">Protien : 9.60 gm</span> <span className=" block">Carbs
             : 92.90gm </span> <span className=" block">Iron : 38.20 mg</span><span className=" block">Zinc : 3.70 mg</span> 
           </div>
           <div onClick={() => {onClose();
-    }} className="z-10 absolute bottom-[3rem] right-[5rem] sm:bottom-[1.5rem] sm:right-[2rem] self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer whitespace-nowrap">
+    }} className="z-10 absolute bottom-[3rem] right-[5rem] mini:bottom-[1.5rem] mini:right-[2rem] self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer whitespace-nowrap">
             Show less
           </div>
         </div>
 
       </div>
-      <div className="absolute right-0 bottom-0 sm:hidden"><img src="foot.svg"
+      <div className="absolute right-0 bottom-0 mini:hidden"><img src="foot.svg"
       /></div>
     </div>
     </div>

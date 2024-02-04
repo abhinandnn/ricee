@@ -18,7 +18,7 @@ function Product({ background, weight, text1, price }) {
     <>
     <div className="z-10 bg-white rounded-[1rem]">
       <div
-  className={` flex-col p-8 pt-[2rem] items-center font-gd relative w-[31.5rem] h-[34.25rem] ${!active ? 'flex' : 'hidden'}`}
+  className={` flex-col p-8 pt-[2rem] items-center font-gd relative w-[31rem] h-[34.25rem] ${!active ? 'flex' : 'hidden'}`}
 >
         <div
           className={`${
@@ -33,9 +33,9 @@ function Product({ background, weight, text1, price }) {
         <div className="flex flex-col gap-4">
           <div className="text-[1.5rem] text-black">{text1}</div>
           <div className="flex justify-between w-[28.5rem] items-center">
-            <span className="text-[3.5rem] leading-[3.5rem] text-black">{weight==5?'₹1245':'₹249'}</span>
+            <span className="text-[3rem] leading-[3rem] text-black">{weight==5?'₹1245':'₹249'}</span>
             <button
-              className={`transition-hover duration-300 hover:bg-white hover:text-mar border border-mar w-[10.75rem] h-[3.75rem] bg-mar rounded-[0.75rem] text-[1.25rem] text-white`}
+              className={`transition-hover duration-300 hover:bg-white hover:text-mar border border-mar w-[10rem] h-[3.6rem] bg-mar rounded-[0.75rem] text-[1.2rem] text-white`}
             >
               Buy now
             </button>
