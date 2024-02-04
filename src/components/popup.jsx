@@ -19,7 +19,7 @@ const Popup = ({onClose,show}) => {
     onClose={onClose}
   >
     <div style={style}>
-     <div className="scale-75 relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[56px] px-[40px] pb-[44px] mob1:px-[2.7vw] mob1:w-[90vw]">
+     <div className="scale-80 relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[20px] px-[40px] pb-[24px] mob1:px-[2.7vw] mob1:w-[90vw]">
       <div className=" flex flex-col items-center gap-[0px] ">
         <div className="text-[2.5rem] whitespace-nowrap  font-gd font-[400] leading-[57.6px] mob:text-[2.2rem]">
           Kalanamak Rice
@@ -73,7 +73,7 @@ const Popup = ({onClose,show}) => {
             : 92.90gm </span> <span className=" block">Iron : 38.20 mg</span><span className=" block">Zinc : 3.70 mg</span> 
           </div>
           <div onClick={() => {onClose();
-    }} className="z-10 self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer whitespace-nowrap">
+    }} className="z-10 absolute bottom-[3rem] right-[5rem] self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer whitespace-nowrap">
             Show less
           </div>
         </div>
