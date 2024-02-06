@@ -24,6 +24,7 @@ const Popup = ({onClose,show}) => {
     autoplay: true,
     autoplaySpeed: 2000,
     arrows: true,
+    
   };
   return (
     <Modal
@@ -32,7 +33,7 @@ const Popup = ({onClose,show}) => {
   >
 
     <div style={style}>
-     <div className="scale-80 mob:scale-75 mini1:scale-70 relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[20px] px-[25px] mini1:w-[120vw] mx-[-5rem] pb-[24px]">
+     <div className="scale-80 mob:scale-75 relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[20px] px-[25px] mini1:scale-65 mini:scale-60 mx-[-5rem] pb-[24px]">
       <div className=" flex flex-col items-center gap-[0px] ">
         <div className="text-[2.5rem] whitespace-nowrap  font-gd font-[400] leading-[57.6px] mob:text-[2.2rem]">
           Kalanamak Rice
@@ -63,13 +64,13 @@ const Popup = ({onClose,show}) => {
         </svg>
         
       </div>
-      <div className="mini1:hidden">
+      <div className="">
         <Slider {...settings}>
           <img src="first.svg" className="z-0 h-[100%]" />
           <img src="rices.svg" className="z-0 h-[100%]"/>
           <img src="coffee.svg" className="z-0 h-[100%]"/>
         </Slider>
-        </div>
+        {/* </div>
         <div className="hidden relative mini1:flex gap-0 w-[100%] mob1:w-[330px] mini1:w-[80vw] mob1:self-center justify-center flex-shrink-0 mt-[40px]">
         <div className=" absolute left-0  top-[15px] mob1:h-[100px] ">
           <img src="first.svg"  className=" mob1:h-[100%] mob1:bg-cover"></img>
@@ -80,10 +81,10 @@ const Popup = ({onClose,show}) => {
         <div className=" absolute right-0 top-[15px]  mob1:h-[100px] ">
           {" "}
           <img src="coffee.svg"  className=" mob1:h-[100%] mob1:bg-cover" />
-        </div>
+        </div> */}
       </div>
       <div className=" flex flex-col gap-[22px] font-[400] font-gd">
-        <div className=" text-[14px]   leading-[21px] text-center">
+        <div className=" text-[14px] mini1:text-[16px]  leading-[21px] text-center">
           High in Protein as compared to normal rice (11%) Rich in Iron & Zinc
           Diabetic friendly (GI &lt; 55) Rich in Antioxidants &quot;Anthocyanin&quot;
           Improves heart & skin health.
@@ -94,7 +95,7 @@ const Popup = ({onClose,show}) => {
             : 92.90gm </span> <span className=" block">Iron : 38.20 mg</span><span className=" block">Zinc : 3.70 mg</span> 
           </div>
           <div onClick={() => {onClose();
-    }} className="z-10 absolute bottom-[3rem] right-[5rem] mini:bottom-[1.5rem] mini:right-[2rem] self-end underline text-[#762023] text-[16px] leading-[24px] cursor-pointer whitespace-nowrap">
+    }} className="z-10 absolute bottom-[3rem] right-[4.8rem] mini:bottom-[1.5rem] mini:right-[2rem] self-end underline text-[#762023] text-[16px] mini1:text-[18px] leading-[24px] cursor-pointer whitespace-nowrap">
             Show less
           </div>
         </div>
