@@ -74,15 +74,13 @@ body{
 
 .slick-slide.slick-center img
 {
-  z-index: 10 !important;
-  transform: scale(1.5) !important;
-  margin-left: -1.4rem !important;
-  margin-right: 0 !important;
+  transform: scale(1.2) !important;
+  margin-left: -0.02rem !important;
+  margin-right: 0!important;
 
 }
 .slick-slide img{
   transform: scale(0.8) !important;
-  z-index: 0 !important;
 }
 
 @font-face {
