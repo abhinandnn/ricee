@@ -87,7 +87,14 @@ body{
   transform: scale(0.8) !important;
   transition: all 0.4s ease-in-out;
 }
-
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
 @font-face {
   font-family: "Gilda Display";
   src: url("/fonts/GildaDisplay-Regular.ttf") format('truetype');

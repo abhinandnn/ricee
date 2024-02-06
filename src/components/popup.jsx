@@ -23,6 +23,7 @@ const Popup = ({onClose,show}) => {
     speed: 500,
     autoplay: true,
     autoplaySpeed: 2000,
+    arrows: true,
   };
   return (
     <Modal
