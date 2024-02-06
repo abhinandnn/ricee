@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import Modal from '@mui/material/Modal';
+import Slider from "react-slick";
 
 const style = {
   position: 'absolute',
@@ -13,11 +14,22 @@ const style = {
   outline:'none'
 };
 const Popup = ({onClose,show}) => {
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "150px",
+    slidesToShow: 1,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  };
   return (
     <Modal
     open={show}
     onClose={onClose}
   >
+
     <div style={style}>
      <div className="scale-80 mob:scale-75 mini1:scale-70 relative w-[31.5rem] flex flex-col gap-[8.1px] bg-[#fff] rounded-[16px] pt-[20px] px-[25px] mini1:w-[120vw] mx-[-5rem] pb-[24px]">
       <div className=" flex flex-col items-center gap-[0px] ">
@@ -48,8 +60,16 @@ const Popup = ({onClose,show}) => {
             fill="#762023"
           />
         </svg>
+        
       </div>
-      <div className=" relative flex gap-0 w-[100%] mob1:w-[330px] mini1:w-[80vw] mob1:self-center justify-center flex-shrink-0 mt-[40px]">
+      <div className="mini1:hidden">
+        <Slider {...settings}>
+          <img src="first.svg" className="z-0 h-[100%]" />
+          <img src="rices.svg" className="z-0 h-[100%]"/>
+          <img src="coffee.svg" className="z-0 h-[100%]"/>
+        </Slider>
+        </div>
+        <div className="hidden relative mini1:flex gap-0 w-[100%] mob1:w-[330px] mini1:w-[80vw] mob1:self-center justify-center flex-shrink-0 mt-[40px]">
         <div className=" absolute left-0  top-[15px] mob1:h-[100px] ">
           <img src="first.svg"  className=" mob1:h-[100%] mob1:bg-cover"></img>
         </div>
