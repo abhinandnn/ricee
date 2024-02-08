@@ -120,7 +120,7 @@ const About = () => {
             </svg>
           </div>
           <div className="text-center">
-            <span className=" font-bold ">At Ricee,</span> we envision a future
+            <span className=" font-bold ">At P&B Agro Foods,</span> we envision a future
             where every household embraces the nourishing goodness of our
             premium rice varieties. Our commitment is to be the preferred choice
             for families seeking quality, authenticity, and sustainability in

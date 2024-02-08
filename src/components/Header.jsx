@@ -9,7 +9,7 @@ function Header() {
     <div className='w-screen fixed z-20'>
     <div className='bg-black backdrop-blur-[10px] bg-opacity-20 text-[1.25rem] text-white px-4 h-[4.5rem] flex items-center sm:justify-end justify-center relative'>
     <div className=' fixed left-[6.5rem] lg:left-[5rem] sm:text-[1.75rem] mob:left-[1rem] md:left-[2rem]'>       <Link to="hero" spy={true} smooth={true} offset={0} duration={200} className='cursor-pointer'>
-Ricee
+    P&B  Agro  Foods
 </Link></div>
     <div className='flex font-gsmt text-[1.0625rem] sm:hidden gap-[3rem]'>
     <Link className='cursor-pointer' to="about" spy={true} smooth={true} offset={0} duration={200}>

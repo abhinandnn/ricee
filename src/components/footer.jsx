@@ -9,7 +9,7 @@ const Footer = () => {
       <div className=" flex flex-col gap-[24px] ">
         <div className=" flex flex-col gap-[24px]">
           <div className=" text-[2rem] leading-[48px] tracking-[0.96px] mob1:text-[28px]">
-           Ricee
+          P&B Agro Foods
           </div>
         </div>
         <div className=" flex flex-col gap-[12px]">
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div className=" flex gap-[18px]">
             <img className=" inline" src="Mail.svg" />
-            <div>info@pbagrofoods.com</div>
+            <div>support@pbagrofoods.com</div>
           </div>
         </div>
         <div className="btn flex  gap-[29px]">

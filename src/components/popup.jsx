@@ -97,6 +97,7 @@ const Popup = ({onClose,show}) => {
           <div onClick={() => {onClose();
     }} className="z-10 absolute bottom-[3rem] right-[4.8rem] mini:bottom-[1.5rem] mini:right-[2rem] self-end underline text-[#762023] text-[16px] mini1:text-[18px] leading-[24px] cursor-pointer whitespace-nowrap">
             Show less
+
           </div>
         </div>
 
