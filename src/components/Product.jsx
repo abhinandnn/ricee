@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Popup from "./popup";
 import Link from "next/link";
+import bg from '../../public/prod-bg.svg'
 function Product({ background, weight, text1, price }) {
   const [nutri, setNutri] = useState(false);
   const [active, setActive] = useState(false);
@@ -16,11 +17,37 @@ function Product({ background, weight, text1, price }) {
   };
   return (
     <>
-    <div className="z-10 bg-white rounded-[1rem]">
+    <div className="z-10 bg-white rounded-[1.5rem]">
       <div
-  className={` flex-col px-[2rem] pt-[2rem] pb-8 items-center font-gd relative w-[31rem] h-[34.25rem] ${!active ? 'flex' : 'hidden'}`}
+  className={` flex pt-[2rem] pb-8 items-center font-gd relative gap-[2rem] w-[54.6rem] h-[25.8rem]`}
 >
-        <div
+<div
+          className={`min-w-[18rem] h-[25.8rem] rounded-[1.5rem] flex items-center justify-center`}
+          style={{backgroundImage: `url(${bg.src})`}}>
+          <Image
+            src={background}
+            className="mb-[-2rem]"
+          />
+          </div>
+          <div className="p-[1rem] pr-[3rem] gap-[1.5rem] flex flex-col">
+<span className="text-[2rem]">
+{text1}
+</span>
+<span className="text-[1.125rem] leading-[1.44rem]">
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit am
+</span>
+<div className="flex items-center justify-between">
+  <span className="text-[3.5rem]">
+  ₹{price}/-
+  </span>
+  <button
+              className={`transition-hover duration-300 hover:bg-white hover:text-mar border border-mar w-[8.8rem] h-[3.5rem] bg-mar rounded-[0.75rem] text-[1.125rem] text-white`}
+            >
+              Buy now
+            </button>
+</div>
+          </div>
+        {/* <div
           className={`${
             weight == 2 ? "w-[15rem] h-[21.7rem]" : "w-[17.8rem] h-[21.7rem]"
           } flex items-center justify-center`}
@@ -116,7 +143,7 @@ function Product({ background, weight, text1, price }) {
         </div>
         <div className=" absolute right-0 bottom-0">
           <img src="foot.svg" />
-        </div>
+        </div> */}
       </div>
     </div>
     {<Popup onClose={closePopup} show={showPopup}/>}
