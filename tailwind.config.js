@@ -27,7 +27,8 @@ module.exports = {
         'mob': {'max': '495px'},
         'mob1': {'max': '585px'},
         'mini1': {'max': '410px'},
-        'mini':{'max': '340px'}
+        'mini':{'max': '340px'},
+        
       },
   
     extend: {
