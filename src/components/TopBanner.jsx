@@ -29,6 +29,7 @@ function TopBanner() {
     <Carousel showThumbs={false} infiniteLoop autoPlay>
     {imagesData.map((image)=>(
       <div
+      key={image.id}
         id="hero"
         className="flex flex-col relative h-auto lg:pb-[6rem] md:pb-[4rem] xl:pb-[7.5rem] pb-[9.4rem] bg-cover bg-center"
         style={{ backgroundImage: `url(${image.src})` }}
