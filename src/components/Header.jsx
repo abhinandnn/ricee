@@ -3,14 +3,16 @@ import React, { useState } from 'react'
 import hamburgerimg from '../../public/hamburger.svg'
 import Image from 'next/image'
 import { Link } from 'react-scroll'
+import logo from '../../public/logo.png'
+import logo1 from '../../public/logo1.jpg'
 function Header() {
         const[hamburger,setHamburger]=useState(false);
   return (
     <div className='w-screen fixed z-20'>
     <div className='bg-black backdrop-blur-[10px] bg-opacity-20 text-[1.25rem] text-white px-4 h-[4.5rem] flex items-center sm:justify-end justify-center relative'>
-    <div className=' fixed left-[6.5rem] lg:left-[5rem] sm:text-[1.75rem] mob:left-[1rem] md:left-[2rem]'>       <Link to="hero" spy={true} smooth={true} offset={0} duration={200} className='cursor-pointer'>
-        P&B  Agro  Foods
-</Link></div>
+    <div className=' fixed left-[6.5rem] lg:left-[5rem] sm:text-[1.5rem] mob:left-[1rem] md:left-[2rem]'>       <Link to="hero" spy={true} smooth={true} offset={0} duration={200} className='cursor-pointer'>
+       <div className='flex items-center gap-2 leading-none'><Image src={logo} className='h-[3.2rem] w-[3.2rem]'/> P&B  Agro  Foods
+       </div></Link></div>
     <div className='flex font-gsmt text-[1.0625rem] sm:hidden gap-[3rem]'>
     <Link className='cursor-pointer' to="about" spy={true} smooth={true} offset={0} duration={200}>
 About
