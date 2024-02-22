@@ -1,14 +1,16 @@
 import React from "react";
-
+import logo from '../../public/logo.png'
+import Image from "next/image";
 const Footer = () => {
   return (
     <div
       id="location"
-      className=" relative flex justify-between mt-[24.3vh] mob1:mt-[17.9vh] w-[100vw]  bg-[#060606] text-[#FFF] pt-[6.3vh] pr-[9.09vw] pl-[7.22VW] text-[1.25rem] font-gd font-[400] leading-[30px] tracking-[0.6px] not-italic overflow-hidden  whitespace-nowrap  md:flex-col md:gap-[80px] pb-[7.3vh]  mob1:text-[16px]"
+      className=" relative flex justify-between mt-[24.3vh] mob1:mt-[17.9vh] w-[100vw]  bg-[#FFE6CE] text-[#000] pt-[6.3vh] pr-[9.09vw] pl-[7.22VW] text-[1.25rem] font-gd font-[400] leading-[30px] tracking-[0.6px] not-italic overflow-hidden  whitespace-nowrap  md:flex-col md:gap-[80px] pb-[7.3vh]  mob1:text-[16px]"
     >
       <div className=" flex flex-col gap-[24px] ">
         <div className=" flex flex-col gap-[24px]">
-          <div className=" text-[2rem] leading-[48px] tracking-[0.96px] mob1:text-[28px]">
+          <div className=" text-[2rem] flex gap-4 items-center leading-[48px] tracking-[0.96px] mob1:text-[28px]">
+            <Image src={logo} className="w-[4rem] h-[4rem]"/>
           P&B Agro Foods
           </div>
         </div>
