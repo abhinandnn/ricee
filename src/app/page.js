@@ -9,7 +9,7 @@ import Health from "@/components/Health"
 
 export default function Home() {
   return (
-    <div className="font-gd font-light relative scroll-smooth bg-[#FFF8F2]">
+    <div className=" font-gd font-light overflow-x-hidden relative scroll-smooth bg-[#FFF8F2]">
     <Header/>
     <TopBanner/>
     <Health/>
