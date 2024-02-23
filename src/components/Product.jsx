@@ -26,7 +26,7 @@ function Product({ background, weight, text1, price, imagesData }) {
   className={` flex pt-[2rem] pb-8 mob:p-0 items-center font-gd relative gap-[2rem] mob:flex-col mob:h-[52rem]  mob:w-[130vw] w-[54.6rem] h-[25.8rem]`}
 >
   <div className="mob:w-[130vw]">
-<Carousel className="w-[18rem] mob:w-[130vw] relative rounded-l-[1.5rem] " showArrows={false} showStatus={false} showThumbs={false} infiniteLoop autoPlay>
+<Carousel className="w-[18rem] mob:h-[24rem] mini:h-[21rem]  mob:w-[130vw] relative rounded-l-[1.5rem] " showArrows={false} showStatus={false} showThumbs={false} infiniteLoop autoPlay>
     {imagesData.map((image)=>(
 <div
           key={image.id}
@@ -44,7 +44,7 @@ function Product({ background, weight, text1, price, imagesData }) {
 <span className="text-[2rem]">
 {text1}
 </span>
-<span className="mob:hidden text-[1.125rem] leading-[1.44rem]">
+<span className=" text-[1.125rem] leading-[1.44rem]">
 Rich in Iron & Zinc<br/>Diabetic friendly (GI {'<'} 55)<br/>Rich in Antioxidants <q>Anthocyanin</q><br/>Improves heart & skin health.
 </span>
 <div className="text-[1.32rem] flex gap-2 h-8 items-center pb-7 pt-2 text-[#515151]">
