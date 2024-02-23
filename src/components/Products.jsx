@@ -1,7 +1,7 @@
 import React from 'react'
 import Product from './Product'
 import background1 from '../../public/prod1.svg'
-import background2 from '../../public/prod2.svg'
+import background2 from '../../public/rice11.jpeg'
 import background3 from '../../public/rice1.jpeg'
 import background4 from '../../public/rice5.jpeg'
 import background5 from '../../public/rice55.jpeg'
@@ -27,7 +27,7 @@ function Products() {
   const imagesData1 =[
     {
       id:1,
-      src: background1.src,
+      src: background2.src,
       title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
       
     },
