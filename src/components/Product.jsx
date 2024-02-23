@@ -21,9 +21,9 @@ function Product({ background, weight, text1, price, imagesData }) {
   };
   return (
     <>
-    <div className="z-10 bg-white rounded-[1.5rem] mob:w-[130vw]">
+    <div className="z-10 mx-[-6rem] bg-white rounded-[1.5rem] mob:w-[130vw]">
       <div
-  className={` flex pt-[2rem] pb-8 mob:p-0 items-center font-gd relative gap-[2rem] mob:flex-col mob:h-[52rem]  mob:w-[130vw] w-[54.6rem] h-[25.8rem]`}
+  className={` flex pt-[2rem] pb-8 mob:p-0 items-center font-gd relative gap-[2rem] mob:flex-col mob:min-h-[49rem]  mob:w-[130vw] w-[54.6rem] h-[25.8rem]`}
 >
   <div className="mob:w-[130vw]">
 <Carousel className="w-[18rem] mob:h-[24rem] mini:h-[21rem]  mob:w-[130vw] relative rounded-l-[1.5rem] " showArrows={false} showStatus={false} showThumbs={false} infiniteLoop autoPlay>

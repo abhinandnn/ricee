@@ -13,7 +13,7 @@
 body{
   scroll-behavior: smooth;
   background-color: #FFF8F2;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 /* .new {
