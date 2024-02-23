@@ -6,7 +6,9 @@ import Nutripop from "../../public/nutripop.svg"
 import Link from "next/link";
 import bg from '../../public/prod-bg.svg'
 import rice1 from '../../public/rice1.jpeg'
-function Product({ background, weight, text1, price }) {
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+function Product({ background, weight, text1, price, imagesData }) {
   const [nutri, setNutri] = useState(false);
   const [active, setActive] = useState(false);
   const[showPopup,setShowPopup]=useState(false)
@@ -19,23 +21,30 @@ function Product({ background, weight, text1, price }) {
   };
   return (
     <>
-    <div className="z-10 bg-white rounded-[1.5rem] mob:w-[80%]">
+    <div className="z-10 bg-white rounded-[1.5rem] mob:w-[130vw]">
       <div
-  className={` flex pt-[2rem] pb-8 mob:p-0 items-center font-gd relative gap-[2rem] mob:flex-col mob:h-[52rem]  mob:w-[100%] w-[54.6rem] h-[25.8rem]`}
+  className={` flex pt-[2rem] pb-8 mob:p-0 items-center font-gd relative gap-[2rem] mob:flex-col mob:h-[52rem]  mob:w-[130vw] w-[54.6rem] h-[25.8rem]`}
 >
+  <div className="mob:w-[130vw]">
+<Carousel className="w-[18rem] mob:w-[130vw] relative rounded-l-[1.5rem] " showArrows={false} showStatus={false} showThumbs={false} infiniteLoop autoPlay>
+    {imagesData.map((image)=>(
 <div
-          className={`min-w-[18rem] bg-center mob:w-[100%] mob:bg-cover bg-no-repeat mob:min-w-[15rem] h-[25.8rem] mob:h-[25rem] mini:h-[21rem] mob:rounded-bl-none mob:rounded-t-[1rem] rounded-l-[1.5rem] flex items-center justify-center`}
-          style={{backgroundImage: `url(${background.src})`}}>
+          key={image.id}
+          className={`min-w-[18rem] bg-center mob:w-[100%] mob:bg-cover bg-no-repeat mob:min-w-[15rem] h-[25.8rem] mob:h-[25rem] mini:h-[21rem] mob:rounded-bl-none mob:rounded-t-[1rem] rounded-l-[1.5rem] flex items-center bg-contain justify-center`}
+          style={{backgroundImage: `url(${image.src})`}}>
+            
           {/* <Image
             src={background}
             className="mb-[-2rem]"
           /> */}
+          </div>))}
+          </Carousel>
           </div>
-          <div className="p-[1rem] mob:pr-[2rem] pr-[3rem] gap-[0.8rem] flex w-full items-stretch flex-col mob:px-[2rem] mini1:px-[2.5rem]">
+          <div className="p-[1rem] mob:pr-[2rem] pr-[3rem] gap-[0.8rem] h-full flex w-full justify-around flex-col mob:px-[2rem] mini1:px-[2.5rem]">
 <span className="text-[2rem]">
 {text1}
 </span>
-<span className="text-[1.125rem] leading-[1.44rem]">
+<span className="mob:hidden text-[1.125rem] leading-[1.44rem]">
 Rich in Iron & Zinc<br/>Diabetic friendly (GI {'<'} 55)<br/>Rich in Antioxidants <q>Anthocyanin</q><br/>Improves heart & skin health.
 </span>
 <div className="text-[1.32rem] flex gap-2 h-8 items-center pb-7 pt-2 text-[#515151]">

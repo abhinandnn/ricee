@@ -2,10 +2,42 @@ import React from 'react'
 import Product from './Product'
 import background1 from '../../public/prod1.svg'
 import background2 from '../../public/prod2.svg'
+import background3 from '../../public/rice1.jpeg'
+import background4 from '../../public/rice5.jpeg'
+import background5 from '../../public/rice55.jpeg'
+
 import design from '../../public/design.svg'
 import Image from 'next/image'
 
 function Products() {
+  const imagesData =[
+    {
+      id:1,
+      src: background4.src,
+      title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
+      
+    },
+    {
+      id:2,
+      src: background5.src,
+      title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
+      
+    },
+  ]
+  const imagesData1 =[
+    {
+      id:1,
+      src: background1.src,
+      title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
+      
+    },
+    {
+      id:2,
+      src: background3.src,
+      title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
+      
+    },
+  ]
   return (
     <div id='products' className='relative flex flex-col items-center justify-center bg-[#FFF8F2] sm:pb-[5rem] mob:pb-[4.5rem] pt-[4.5rem] sm:pt-[3.6rem] md:pt-[4rem] pb-[5.5rem]'>
 <div className='text-[3rem] sm:text-[2.5rem] mob:text-[2rem]'>Our Products</div>
@@ -19,8 +51,8 @@ function Products() {
 <Image src={design} className='absolute lg:hidden right-0 top-[8rem] rotate-180'/>
 <div className='mt-[5rem]'>
 <div className='mob:mx-[-10rem] flex gap-[6rem] lg:my-[-8rem] transform mob1:scale-60 sm:my-[-11rem] mob:scale-65 mob:my-[-22rem] sm:mx-[-4rem] lg:scale-75 scale-90 my-[-2.75rem] xl:my-[-4rem] sm:scale-65 items-center justify-center flex-wrap'>
-    <Product price={416} weight={2} background={background1} text1={'1KG Pack - Handy and Convenient'} />
-    <Product price={2126} weight={5} background={background2} text1={'5KG Pack - For Rice Enthusiasts'} />
+    <Product imagesData={imagesData1} price={416} weight={2} background={background1} text1={'1KG Pack - Handy and Convenient'} />
+    <Product imagesData={imagesData} price={2126} weight={5} background={background2} text1={'5KG Pack - For Rice Enthusiasts'} />
 
 </div>
 </div>
