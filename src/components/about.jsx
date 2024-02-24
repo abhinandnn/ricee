@@ -10,7 +10,7 @@ const About = () => {
         <div className=" flex flex-col gap-[3.5rem]">
           <div className="  flex flex-col items-center gap-[0px]">
             <div className="text-[3rem] sm:text-[2.5rem] font-gd font-[400] leading-[57.6px]">
-              About Rice
+              About Us
             </div>
             <svg
               width="245"

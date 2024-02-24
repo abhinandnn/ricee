@@ -39,7 +39,7 @@ const Footer = () => {
         <div className="btn flex  gap-[29px]">
           <img src="Instagram.svg" />
           <img src="LinkedIn.svg" />
-          <img src="Group.svg" />
+          <img  src="Groupsss.svg" />
           <img src="Facebook.svg" />
         </div>
       </div>
