@@ -65,7 +65,7 @@ Rich in Iron & Zinc<br/>Diabetic friendly (GI {'<'} 55)<br/>Rich in Antioxidants
 </div>
 <div className="flex items-end justify-between">
   <div className="flex flex-col gap-1">
-    <div className="w-[5.68rem] rounded-[4px] h-[1.95rem] bg-[#9FFF97] text-[0.81rem] flex items-center justify-center">
+    <div className="w-[5.68rem] mb-2 rounded-[4px] h-[1.95rem] bg-[#9FFF97] text-[0.81rem] flex items-center justify-center">
 Limited offer
     </div>
   <div className="flex items-top leading-[3.5rem] text-[3.5rem]">
