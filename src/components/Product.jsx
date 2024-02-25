@@ -68,9 +68,8 @@ Rich in Iron & Zinc<br/>Diabetic friendly (GI {'<'} 55)<br/>Rich in Antioxidants
     <div className="w-[5.68rem] rounded-[4px] h-[1.95rem] bg-[#9FFF97] text-[0.81rem] flex items-center justify-center">
 Limited offer
     </div>
-    <span className="text-[#515151] text-[1.25rem]">MRP:<span className="decoration-2 line-through">₹{price}</span> <span className="text-mar">40% off</span></span>
   <div className="flex items-top leading-[3.5rem] text-[3.5rem]">
-  <span className="text-[1.125rem] leading-5">₹</span>{(price-price*0.4).toFixed(0)}/-
+  <span className="text-[1.25rem] leading-5">₹</span>{(price-price*0.4).toFixed(0)}<div className="flex pl-2 items-end"><span className="text-[#515151] leading-[2.5rem]  text-[1.5rem]"><span className="decoration-2 line-through">₹{price}</span> <span className="text-mar">40% off</span></span></div>
   </div>
   <span className="text-[#515151] text-[1.25rem]">FREE Delivery</span></div>
   <Link target="_blank" href={`https://wa.me/919540182525?text=Place+an+order+for+${weight==2?'1kg':'5kg'}+pack`}>
