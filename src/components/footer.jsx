@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../../public/logo.png'
 import Image from "next/image";
+import logo1 from '../../public/logo1.png'
 const Footer = () => {
   return (
     <div
@@ -10,7 +11,7 @@ const Footer = () => {
       <div className=" flex flex-col gap-[24px] ">
         <div className=" flex flex-col gap-[24px]">
           <div className=" text-[2rem] flex gap-4 items-center leading-[48px] tracking-[0.96px] mob1:text-[28px]">
-            <Image src={logo} className="w-[4rem] h-[4rem]"/>
+            <Image src={logo1} className="w-[4rem] h-[4rem]"/>
           P&B Agro Foods
           </div>
         </div>
